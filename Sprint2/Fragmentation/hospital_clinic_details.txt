@@ -1,0 +1,5 @@
+HospitalID,ClinicID,LocationID,Latitude,Longitude,City,State,Country,PINCode,InstanceName,InstanceStatus
+1,1,1,0.0000,0.0000,City,State,Country,PINCode,Instance1,Active
+1,3,1,0.0000,0.0000,City,State,Country,PINCode,Instance1,Active
+2,2,2,0.0000,0.0000,City,State,Country,PINCode,Instance2,Active
+2,4,2,0.0000,0.0000,City,State,Country,PINCode,Instance2,Active

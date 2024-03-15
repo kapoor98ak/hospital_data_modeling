@@ -1,0 +1,20 @@
+resources:
+•⁠  ⁠name: vmysql-test
+  type: sqladmin.v1beta4.instance
+  properties:
+    region: us-west3
+    settings:
+      tier: db-f1-micro
+      ipConfiguration:
+        authorizedNetworks:
+        - name: public-access
+          value: 0.0.0.0/0
+    databaseVersion: MYSQL_5_7
+
+•⁠  ⁠name: sprint2
+  type: sqladmin.v1beta4.database
+  properties:
+    name: sprint2
+    instance: $(ref.vmysql1.name)
+    charset: utf8
+    collation: utf8_general_ci

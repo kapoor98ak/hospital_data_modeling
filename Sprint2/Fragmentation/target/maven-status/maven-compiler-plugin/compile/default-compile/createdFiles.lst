@@ -1,1 +1,3 @@
-test_connection_GDC.class
+QueryInfo.class
+InsertQueryInfo.class
+fragmentation.class
